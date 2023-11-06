@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item-nav-mid {
+    @apply mr-4 border border-transparent rounded-sm px-2;
+}
+
+.item-nav-mid:hover {
+    @apply hover:border-white;
+}
+
+.address-container {
+   @apply flex items-center border border-transparent rounded-sm px-2 py-2;
+}
+
+.address-container:hover {
+    @apply border-white;
+}
+
+.item-nav-inf {
+    @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3;
+}
+
+/* Media Query @Apply */
+@screen md {
+    .address-container {
+        @apply py-0;
+    }
+}
