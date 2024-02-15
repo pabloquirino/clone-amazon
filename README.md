@@ -12,4 +12,4 @@
 https://pabloquirino.github.io/clone-amazon/src/
 
 ### Captura de tela:
- ![PrintScreen do projeto](./img.readme/amazon.png) ****
+ ![PrintScreen do projeto](./img.readme/amazon.png) 
